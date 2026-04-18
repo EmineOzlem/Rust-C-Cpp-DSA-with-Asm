@@ -1,0 +1,9 @@
+# Binaries
+bag_test
+*.o
+
+# Assembly analysis files
+*.s
+
+# Rust build artifacts
+target/
