@@ -6,7 +6,7 @@ A high-performance, type-safe, and memory-secure **Bag (Multiset)** implementati
 
 Unlike modern high-level languages, **ANSI C** does not natively support Generics. This library chooses a Macro-based Code Generation approach over `void*` pointers for the following reasons:
 
-1. **Static Type Safety:** Macros generate specific code for each type (e.g., `Bag_int`, `Bag_string`), allowing the compiler to catch type mismatches at compile-time.
+1. **Static Type Safety:** Macros generate specific code for each type (e.g., `Bag_int`, `Bag_string`), allowing the compiler to catch type mismatches at compile-time.git commit -m "feat: implement standalone generic bag ADT with compile-time type safety"
 2. **Zero Runtime Overhead:** Since macros are processed before compilation, there are no function pointer lookups or manual type-casting during execution.
 3. **Code Reusability (DRY):** Logic is defined once and "instantiated" as needed, maintaining a clean and maintainable codebase.
 4. **Compile-Time Dispatch:** Utilizes **C11 `_Generic`** to automatically select the most efficient comparison algorithm (e.g., `strcmp` for strings vs. `==` for primitives).
@@ -19,7 +19,7 @@ Unlike modern high-level languages, **ANSI C** does not natively support Generic
 * **Memory Integrity:** Features a `const size_t capacity` member, locked at initialization via pointer-casting to prevent accidental resizing.
 * **Precision:** Fully implemented with `size_t` to ensure 64-bit compatibility and prevent integer-overflow bugs.
 
-## API Reference
+## API Reference 
 
 | Function | Signature | Description |
 | :--- | :--- | :--- |
