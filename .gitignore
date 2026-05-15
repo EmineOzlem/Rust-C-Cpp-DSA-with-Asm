@@ -1,9 +1,27 @@
-# Binaries
-bag_test
+# Compiled Binaries / Executables
+*.out
+*.exe
 *.o
+*.a
+*.so
+bag_test
 
-# Assembly analysis files
+# Specific compiled files in the project
+prefix_finder
+roman_converter
+main
+
+# Assembly Analysis Files
 *.s
 
-# Rust build artifacts
+# Rust Build Artifacts
 target/
+
+# IDEs and Editors configuration folders
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
