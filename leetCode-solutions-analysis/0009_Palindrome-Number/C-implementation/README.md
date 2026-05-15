@@ -32,6 +32,6 @@ While converting the integer to a string is a common approach that offers faster
 
 However, array indexing is not the sole solution. From a systems architecture perspective, we could navigate directly through memory addresses using **pointer arithmetic**. By documenting the possibility of implementing two 'shadow' pointers (incrementing one while decrementing the other), I have effectively addressed the trade-offs of not using pointers directly in this specific implementation. Choosing a readable array structure while maintaining a deep understanding of pointer-level alternatives ensures the code is both **audit-friendly** and **optimization-ready** for high-performance systems like **Project Phoenix**.
 
----
+--- 
 
 > *"Engineering is not just about making things work; it's about knowing why one path was chosen over another."*
