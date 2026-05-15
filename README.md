@@ -5,7 +5,6 @@ A high-performance research laboratory for Data Structures and Algorithms (DSA) 
 > **The Systems Philosophy:** Performance is not an accident; it is the result of conscious design. By analyzing how modern **Rust** generics compare to traditional C macros and C++ templates at the instruction level, we uncover the true mechanics of modern computing.
 
 ---
-
 ## Project Structure
 
 The repository follows a unified, flat hierarchical structure to ensure perfect symmetry across all research modules.
@@ -45,7 +44,7 @@ Every module undergoes a rigorous three-stage **Systems Audit** to ensure code e
 * **The Binary:** Generate Assembly outputs (`objdump` or `cargo rustc -- --emit asm`) to inspect the "Safety Tax" of Rust versus the "Manual Risk" of C.
 * **The Profiling:** Utilize **Valgrind** for memory audits and **Perf** for monitoring cache misses and branch mispredictions.
 
----
+--- 
 
 ## Performance Metrics
 
