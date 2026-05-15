@@ -22,4 +22,4 @@ In this solution, I implemented a robust search algorithm using **C pointers** r
 ### Engineering Philosophy: Beyond Just Performance
 While high-speed execution at the kernel level is a priority, performance should not be evaluated through the lens of time complexity alone. Sustainable development requires code that is maintainable, readable, and prepared for future enhancements. For this reason, I embrace **Clean Code** principles and strive to eliminate unnecessary complexity (**KISS**).
 
-While this approach is perfectly sufficient for small-to-medium datasets, I acknowledge that system latency may increase as data scales. Therefore, it is crucial to keep the codebase simple and transparent, ensuring it remains **"optimization-ready"** whenever scaling requirements necessitate a shift to more complex algorithms.
+While this approach is perfectly sufficient for small-to-medium datasets, I acknowledge that system latency may increase as data scales. Therefore, it is crucial to keep the codebase simple and transparent, ensuring it remains **"optimization-ready"** whenever scaling requirements necessitate a shift to more complex algorithms. 
